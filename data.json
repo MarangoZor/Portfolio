@@ -5,7 +5,14 @@
     "bio1": "Mimar Sinan Güzel Sanatlar Üniversitesi, Mimarlık Bölümü 4. sınıf öğrencisiyim.",
     "bio2": "Eğitim sürecim boyunca geliştirdiğim çeşitli projelere bu portfolyoda yer verdim.",
     "profileImageUrl": "img/profile.JPG",
-    "skills": ["Rhino 8", "Grasshopper", "AutoCAD", "SketchUp", "Photoshop", "3D Baskı"]
+    "skills": [
+      "Rhino 8",
+      "Grasshopper",
+      "AutoCAD",
+      "SketchUp",
+      "Photoshop",
+      "3D Baskı"
+    ]
   },
   "projects": [
     {
@@ -18,81 +25,96 @@
         "yan1": "https://placehold.co/400x400/2a2a2a/white?text=Yan+1",
         "yan2": "https://placehold.co/400x400/333333/white?text=Yan+2"
       },
-      "detailImages": [
-        { "src": "https://placehold.co/1200x800/1e1e1e/white?text=01+Vaziyet+(Yatay)", "thumb": "https://placehold.co/600x400/1e1e1e/white?text=01+Vaziyet", "width": 1200, "height": 800, "alt": "01 Vaziyet" },
-        { "src": "https://placehold.co/800x1200/2a2a2a/white?text=02+Kesit+(Dikey)", "thumb": "https://placehold.co/400x600/2a2a2a/white?text=02+Kesit", "width": 800, "height": 1200, "alt": "02 Kesit" },
-        { "src": "https://placehold.co/800x800/333333/white?text=03+Diyagram+(Kare)", "thumb": "https://placehold.co/400x400/333333/white?text=03+Diyagram", "width": 800, "height": 800, "alt": "03 Diyagram" },
-        { "src": "https://placehold.co/1000x600/4d4d4d/white?text=04+Render+(Yatay)", "thumb": "https://placehold.co/500x300/4d4d4d/white?text=04+Render", "width": 1000, "height": 600, "alt": "04 Render" },
-        { "src": "https://placehold.co/600x1000/1e1e1e/white?text=05+Detay+(Dikey)", "thumb": "https://placehold.co/300x500/1e1e1e/white?text=05+Detay", "width": 600, "height": 1000, "alt": "05 Detay" },
-        { "src": "https://placehold.co/1200x600/2a2a2a/white?text=06+Genis+Aci+(Yatay)", "thumb": "https://placehold.co/600x300/2a2a2a/white?text=06+Genis+Aci", "width": 1200, "height": 600, "alt": "06 Geniş Açı" },
-        { "src": "https://placehold.co/800x1000/333333/white?text=07+Aksonometrik+(Dikey)", "thumb": "https://placehold.co/400x500/333333/white?text=07+Aksonometrik", "width": 800, "height": 1000, "alt": "07 Aksonometrik" },
-        { "src": "https://placehold.co/600x600/4d4d4d/white?text=08+Konsept+(Kare)", "thumb": "https://placehold.co/300x300/4d4d4d/white?text=08+Konsept", "width": 600, "height": 600, "alt": "08 Konsept" },
-        { "src": "https://placehold.co/1000x800/1e1e1e/white?text=09+Plan+(Yatay)", "thumb": "https://placehold.co/500x400/1e1e1e/white?text=09+Plan", "width": 1000, "height": 800, "alt": "09 Plan" },
-        { "src": "https://placehold.co/800x1200/2a2a2a/white?text=10+Cephe+(Dikey)", "thumb": "https://placehold.co/400x600/2a2a2a/white?text=10+Cephe", "width": 800, "height": 1200, "alt": "10 Cephe" },
-        { "src": "https://placehold.co/1200x1000/333333/white?text=11+Ic+Mekan+(Yatay)", "thumb": "https://placehold.co/600x500/333333/white?text=11+Ic+Mekan", "width": 1200, "height": 1000, "alt": "11 İç Mekan" },
-        { "src": "https://placehold.co/600x800/4d4d4d/white?text=12+Eskiz+(Dikey)", "thumb": "https://placehold.co/300x400/4d4d4d/white?text=12+Eskiz", "width": 600, "height": 800, "alt": "12 Eskiz" },
-        { "src": "https://placehold.co/800x600/1e1e1e/white?text=13+Maket+(Yatay)", "thumb": "https://placehold.co/400x300/1e1e1e/white?text=13+Maket", "width": 800, "height": 600, "alt": "13 Maket" },
-        { "src": "https://placehold.co/1000x1000/2a2a2a/white?text=14+Analiz+(Kare)", "thumb": "https://placehold.co/500x500/2a2a2a/white?text=14+Analiz", "width": 1000, "height": 1000, "alt": "14 Analiz" },
-        { "src": "https://placehold.co/1200x800/333333/white?text=15+Final+Render+(Yatay)", "thumb": "https://placehold.co/600x400/333333/white?text=15+Final+Render", "width": 1200, "height": 800, "alt": "15 Final Render" },
-        { "src": "https://placehold.co/600x1200/4d4d4d/white?text=16+Uzun+Kesit+(Dikey)", "thumb": "https://placehold.co/300x600/4d4d4d/white?text=16+Uzun+Kesit", "width": 600, "height": 1200, "alt": "16 Uzun Kesit" }
-      ]
+      "detailImages": []
     },
     {
-      "id": "parametrik-robot",
-      "title": "3D Baskı Robot Kol",
+      "id": "paylasımlı-ofis",
+      "title": "Paylasımlı Ofis",
       "year": "2026",
-      "summary": "Truss strüktürlü ve özel trapez vidalı mafsal sistemine sahip tasarım. (4 Görsel)",
+      "summary": "Bu proje için henüz bir açıklama girilmedi.",
       "previewImages": {
-        "kapak": "https://placehold.co/800x800/1e1e1e/white?text=Robot+Kapak",
-        "yan1": "https://placehold.co/400x400/2a2a2a/white?text=Detay+1",
-        "yan2": "https://placehold.co/400x400/333333/white?text=Detay+2"
+        "kapak": "img/projeler/paylasımlı-ofis/thumb/1_r_01_kapak.webp",
+        "yan1": "img/projeler/paylasımlı-ofis/thumb/1_r_03_yan1.webp",
+        "yan2": "img/projeler/paylasımlı-ofis/thumb/3_k_01_yan2.webp"
       },
       "detailImages": [
-        { "src": "https://placehold.co/1920x1280/1e1e1e/white?text=Genel+Gorunum", "thumb": "https://placehold.co/600x400/1e1e1e/white?text=Genel+Gorunum", "width": 1920, "height": 1280, "alt": "Genel Görünüm" },
-        { "src": "https://placehold.co/1080x1920/2a2a2a/white?text=Eklemler", "thumb": "https://placehold.co/400x711/2a2a2a/white?text=Eklemler", "width": 1080, "height": 1920, "alt": "Eklemler" },
-        { "src": "https://placehold.co/1600x1600/333333/white?text=Truss+Detayi", "thumb": "https://placehold.co/500x500/333333/white?text=Truss+Detayi", "width": 1600, "height": 1600, "alt": "Truss Detayı" },
-        { "src": "https://placehold.co/1920x1080/4d4d4d/white?text=Uretim+Plani", "thumb": "https://placehold.co/600x337/4d4d4d/white?text=Uretim+Plani", "width": 1920, "height": 1080, "alt": "Üretim Planı" }
-      ]
-    },
-    {
-      "id": "sahil-kutuphanesi",
-      "title": "Sahil Kütüphanesi",
-      "year": "2025",
-      "summary": "Deniz ile kentsel doku arasında köprü kuran organik formlu kütüphane projesi. (9 Görsel)",
-      "previewImages": {
-        "kapak": "https://placehold.co/800x800/1e1e1e/white?text=Kutuphane+Kapak",
-        "yan1": "https://placehold.co/400x400/2a2a2a/white?text=Ick+Mekan",
-        "yan2": "https://placehold.co/400x400/333333/white?text=Cati+Detay"
-      },
-      "detailImages": [
-        { "src": "https://placehold.co/1600x900/1e1e1e/white?text=01+Vaziyet", "thumb": "https://placehold.co/600x337/1e1e1e/white?text=01+Vaziyet", "width": 1600, "height": 900, "alt": "Vaziyet Planı" },
-        { "src": "https://placehold.co/900x1600/2a2a2a/white?text=02+Kesit", "thumb": "https://placehold.co/337x600/2a2a2a/white?text=02+Kesit", "width": 900, "height": 1600, "alt": "Kesit" },
-        { "src": "https://placehold.co/1200x1200/333333/white?text=03+Ick+Mekan+1", "thumb": "https://placehold.co/500x500/333333/white?text=03+Ick+Mekan+1", "width": 1200, "height": 1200, "alt": "İç Mekan 1" },
-        { "src": "https://placehold.co/1600x1200/4d4d4d/white?text=04+Cephe+Sistemi", "thumb": "https://placehold.co/600x450/4d4d4d/white?text=04+Cephe+Sistemi", "width": 1600, "height": 1200, "alt": "Cephe Sistemi" },
-        { "src": "https://placehold.co/1000x1400/1e1e1e/white?text=05+Plan", "thumb": "https://placehold.co/400x560/1e1e1e/white?text=05+Plan", "width": 1000, "height": 1400, "alt": "Plan" },
-        { "src": "https://placehold.co/1400x1000/2a2a2a/white?text=06+Render", "thumb": "https://placehold.co/560x400/2a2a2a/white?text=06+Render", "width": 1400, "height": 1000, "alt": "Render" },
-        { "src": "https://placehold.co/800x800/333333/white?text=07+Diyagram", "thumb": "https://placehold.co/400x400/333333/white?text=07+Diyagram", "width": 800, "height": 800, "alt": "Diyagram" },
-        { "src": "https://placehold.co/1920x1080/4d4d4d/white?text=08+Gece+Renderi", "thumb": "https://placehold.co/600x337/4d4d4d/white?text=08+Gece+Renderi", "width": 1920, "height": 1080, "alt": "Gece Renderı" },
-        { "src": "https://placehold.co/1080x1920/1e1e1e/white?text=09+Detay+Kesit", "thumb": "https://placehold.co/337x600/1e1e1e/white?text=09+Detay+Kesit", "width": 1080, "height": 1920, "alt": "Detay Kesit" }
-      ]
-    },
-    {
-      "id": "moduler-yasam",
-      "title": "Modüler Yaşam Ünitesi",
-      "year": "2024",
-      "summary": "Afet sonrası acil durumlar için hızlı kurulabilen barınma senaryosu. (6 Görsel)",
-      "previewImages": {
-        "kapak": "https://placehold.co/800x800/1e1e1e/white?text=Modul+Kapak",
-        "yan1": "https://placehold.co/400x400/2a2a2a/white?text=Modul+Ici",
-        "yan2": "https://placehold.co/400x400/333333/white?text=Kurulum"
-      },
-      "detailImages": [
-        { "src": "https://placehold.co/1500x1000/1e1e1e/white?text=01+Genel+Gorunus", "thumb": "https://placehold.co/600x400/1e1e1e/white?text=01+Genel+Gorunus", "width": 1500, "height": 1000, "alt": "Genel Görünüş" },
-        { "src": "https://placehold.co/1000x1500/2a2a2a/white?text=02+Kurulum+Asemasi", "thumb": "https://placehold.co/400x600/2a2a2a/white?text=02+Kurulum+Asemasi", "width": 1000, "height": 1500, "alt": "Kurulum Aşaması" },
-        { "src": "https://placehold.co/1200x1200/333333/white?text=03+Ick+Mekan", "thumb": "https://placehold.co/500x500/333333/white?text=03+Ick+Mekan", "width": 1200, "height": 1200, "alt": "İç Mekan Planı" },
-        { "src": "https://placehold.co/1800x900/4d4d4d/white?text=04+Varyasyonlar", "thumb": "https://placehold.co/600x300/4d4d4d/white?text=04+Varyasyonlar", "width": 1800, "height": 900, "alt": "Varyasyonlar" },
-        { "src": "https://placehold.co/900x1800/1e1e1e/white?text=05+Baglanti+Detayi", "thumb": "https://placehold.co/300x600/1e1e1e/white?text=05+Baglanti+Detayi", "width": 900, "height": 1800, "alt": "Bağlantı Detayı" },
-        { "src": "https://placehold.co/1400x1050/2a2a2a/white?text=06+Render", "thumb": "https://placehold.co/600x450/2a2a2a/white?text=06+Render", "width": 1400, "height": 1050, "alt": "Render" }
+        {
+          "src": "img/projeler/paylasımlı-ofis/src/1_r_01_kapak.webp",
+          "thumb": "img/projeler/paylasımlı-ofis/thumb/1_r_01_kapak.webp",
+          "width": 3545,
+          "height": 2507,
+          "alt": "1 R 01"
+        },
+        {
+          "src": "img/projeler/paylasımlı-ofis/src/1_r_02.webp",
+          "thumb": "img/projeler/paylasımlı-ofis/thumb/1_r_02.webp",
+          "width": 3401,
+          "height": 2403,
+          "alt": "1 R 02"
+        },
+        {
+          "src": "img/projeler/paylasımlı-ofis/src/1_r_03_yan1.webp",
+          "thumb": "img/projeler/paylasımlı-ofis/thumb/1_r_03_yan1.webp",
+          "width": 3402,
+          "height": 2404,
+          "alt": "1 R 03"
+        },
+        {
+          "src": "img/projeler/paylasımlı-ofis/src/2_p_01.webp",
+          "thumb": "img/projeler/paylasımlı-ofis/thumb/2_p_01.webp",
+          "width": 3570,
+          "height": 2650,
+          "alt": "2 P 01"
+        },
+        {
+          "src": "img/projeler/paylasımlı-ofis/src/2_p_02.webp",
+          "thumb": "img/projeler/paylasımlı-ofis/thumb/2_p_02.webp",
+          "width": 3570,
+          "height": 2650,
+          "alt": "2 P 02"
+        },
+        {
+          "src": "img/projeler/paylasımlı-ofis/src/2_p_03.webp",
+          "thumb": "img/projeler/paylasımlı-ofis/thumb/2_p_03.webp",
+          "width": 3570,
+          "height": 2650,
+          "alt": "2 P 03"
+        },
+        {
+          "src": "img/projeler/paylasımlı-ofis/src/2_p_04.webp",
+          "thumb": "img/projeler/paylasımlı-ofis/thumb/2_p_04.webp",
+          "width": 3570,
+          "height": 2650,
+          "alt": "2 P 04"
+        },
+        {
+          "src": "img/projeler/paylasımlı-ofis/src/2_p_05.webp",
+          "thumb": "img/projeler/paylasımlı-ofis/thumb/2_p_05.webp",
+          "width": 3570,
+          "height": 2650,
+          "alt": "2 P 05"
+        },
+        {
+          "src": "img/projeler/paylasımlı-ofis/src/2_p_06.webp",
+          "thumb": "img/projeler/paylasımlı-ofis/thumb/2_p_06.webp",
+          "width": 3570,
+          "height": 2650,
+          "alt": "2 P 06"
+        },
+        {
+          "src": "img/projeler/paylasımlı-ofis/src/3_k_01_yan2.webp",
+          "thumb": "img/projeler/paylasımlı-ofis/thumb/3_k_01_yan2.webp",
+          "width": 3550,
+          "height": 1299,
+          "alt": "3 K 01"
+        },
+        {
+          "src": "img/projeler/paylasımlı-ofis/src/3_k_02.webp",
+          "thumb": "img/projeler/paylasımlı-ofis/thumb/3_k_02.webp",
+          "width": 3550,
+          "height": 1476,
+          "alt": "3 K 02"
+        }
       ]
     }
   ]

@@ -93,8 +93,15 @@ function buildProjectDetail(projects) {
 
     renderMasonry(project.detailImages);
 
+    // Mevcut genişliği hafızaya al
+    let currentWidth = window.innerWidth;
+    
     window.addEventListener('resize', () => {
-        renderMasonry(project.detailImages);
+        // Sadece genişlik gerçekten değiştiyse (telefonu yan çevirmek gibi) yeniden çiz
+        if (window.innerWidth !== currentWidth) {
+            currentWidth = window.innerWidth;
+            renderMasonry(project.detailImages);
+        }
     });
 
     // 1. ADIM: PhotoSwipe'ı 'gallery' ve 'children' olmadan, serbest modda başlatıyoruz

@@ -1,3 +1,5 @@
+import PhotoSwipeLightbox from 'https://unpkg.com/photoswipe@5.4.3/dist/photoswipe-lightbox.esm.min.js';
+
 document.addEventListener('DOMContentLoaded', () => {
     const isProjectPage = window.location.pathname.includes('project.html');
 
@@ -21,14 +23,12 @@ function buildProfile(profile) {
     
     const skillsHTML = profile.skills.map(skill => `<span class="skill-tag">${skill}</span>`).join('');
     
-    // HTML yapısını fotoğraf ve metni yan yana dizebilecek şekilde kurduk
     profileBlock.innerHTML = `
         <div class="profile-container">
             <div class="profile-image-wrapper">
                 <img src="${profile.profileImageUrl}" alt="${profile.name}" loading="lazy">
             </div>
             <div class="profile-content">
-                
                 <h1 class="profile-name">${profile.name}</h1>
                 <h2 class="profile-role">${profile.role}</h2>
                 <p style="margin-bottom: 0;" class="profile-bio">${profile.bio1}</p>
@@ -47,7 +47,6 @@ function buildProjects(projects) {
         const projectCard = document.createElement('article');
         projectCard.className = 'project-card';
         
-        // YENİ SIRALAMA: Başlık -> Resimler -> Açıklama -> Yıl
         projectCard.innerHTML = `
             <h3 class="card-title">${project.title}</h3>
             
@@ -88,15 +87,91 @@ function buildProjectDetail(projects) {
             <h1 class="detail-title">${project.title}</h1>
             <p class="detail-summary">${project.summary}</p>
         </div>
-        <div class="detail-masonry-gallery">
+        <div id="masonry-container" class="detail-masonry-gallery"></div>
     `;
+    container.innerHTML = detailHTML;
 
-    project.detailImages.forEach(imgUrl => {
-        detailHTML += `<img src="${imgUrl}" alt="${project.title} Görseli" loading="lazy">`;
+    renderMasonry(project.detailImages);
+
+    window.addEventListener('resize', () => {
+        renderMasonry(project.detailImages);
     });
 
-    detailHTML += `</div>`;
-    container.innerHTML = detailHTML;
+    // 1. ADIM: PhotoSwipe'ı 'gallery' ve 'children' olmadan, serbest modda başlatıyoruz
+    const lightbox = new PhotoSwipeLightbox({
+        pswpModule: () => import('https://unpkg.com/photoswipe@5.4.3/dist/photoswipe.esm.min.js'),
+        bgOpacity: 0.9, 
+        paddingFn: (viewportSize) => {
+            return { top: 30, bottom: 30, left: 30, right: 30 }; 
+        }
+    });
+    lightbox.init();
+
+    // 2. ADIM: Tıklama olayını biz yönetiyoruz
+    const masonryContainer = document.getElementById('masonry-container');
+    masonryContainer.addEventListener('click', (e) => {
+        const link = e.target.closest('a');
+        if (link) {
+            e.preventDefault(); // Resmin yeni sekmede açılmasını engelle
+            
+            // Tıklanan resmin gerçek sırasını (index) al
+            const index = parseInt(link.getAttribute('data-index'), 10);
+            
+            // PhotoSwipe'a orijinal sıradaki (1, 2, 3...) listeyi ve zoom yapacağı elementleri veriyoruz
+            const dataSource = project.detailImages.map((imgData, i) => {
+                const imgElement = masonryContainer.querySelector(`a[data-index="${i}"] img`);
+                return {
+                    src: imgData.src,
+                    width: imgData.width,
+                    height: imgData.height,
+                    alt: imgData.alt,
+                    element: imgElement // Açılış/kapanış animasyonunun doğru resme gitmesi için şart
+                };
+            });
+
+            // Lightbox'ı bu özel sırayla ve tıklanan indeksle aç
+            lightbox.loadAndOpen(index, dataSource);
+        }
+    });
+}
+
+function renderMasonry(images) {
+    const masonryContainer = document.getElementById('masonry-container');
+    if (!masonryContainer) return;
+
+    let colCount = 1; 
+    if (window.innerWidth >= 1200) colCount = 3; 
+    else if (window.innerWidth >= 768) colCount = 2; 
+
+    masonryContainer.innerHTML = '';
+    let columns = [];
+    
+    for (let i = 0; i < colCount; i++) {
+        let colDiv = document.createElement('div');
+        colDiv.className = 'masonry-column';
+        columns.push(colDiv);
+        masonryContainer.appendChild(colDiv);
+    }
+
+    images.forEach((imgData, index) => {
+        if(typeof imgData === 'string') return; 
+
+        // 3. ADIM: Her a etiketine data-index ekliyoruz ki sırasını bilelim
+        const linkHTML = `
+            <a href="${imgData.src}" 
+               data-index="${index}" 
+               target="_blank">
+                <img src="${imgData.thumb}" alt="${imgData.alt}" loading="lazy">
+            </a>
+        `;
+        
+        const tempDiv = document.createElement('div');
+        tempDiv.innerHTML = linkHTML;
+        const linkElement = tempDiv.firstElementChild;
+        
+        const targetColumnIndex = index % colCount;
+        columns[targetColumnIndex].appendChild(linkElement);
+    });
 }
 
 function checkPrintMode() {

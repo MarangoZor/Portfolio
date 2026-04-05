@@ -1,0 +1,194 @@
+/* ==========================================================================
+   PROJECT CSS: Proje Detay Sayfası, Ribbon Menü ve Kapsayıcı Düzeni
+   ========================================================================== */
+
+/* --- RIBBON HEADER (İnce Üst Menü) --- */
+.project-ribbon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 20px; 
+    background-color: var(--surface-color); 
+    border-bottom: 2px solid var(--accent); 
+    border-radius: 8px; 
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5); 
+    
+    /* Kapsayıcı ile birleşme için üstte kalmasını garantiliyoruz */
+    position: relative;
+    z-index: 2; 
+}
+
+.ribbon-left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Transparan ve zarif "Geri Dön" butonu dokunuşun */
+.ribbon-back-btn { 
+    display: inline-block; 
+    text-decoration: none; 
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background: transparent;
+    border: 1px solid #444;
+    color: #888;
+    padding: 6px 12px;
+    font-size: 0.85em;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: all 0.3s;
+    white-space: nowrap;
+}
+
+.ribbon-back-btn:hover { 
+    border-color: #bd3f3f; 
+    color: #bd3f3f;
+}
+
+.ribbon-name {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: var(--text-main);
+    letter-spacing: -0.5px;
+}
+
+.ribbon-right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.ribbon-nav {
+    display: flex;
+    gap: 20px;
+}
+
+.ribbon-nav a {
+    color: var(--text-muted);
+    text-decoration: none;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: color 0.3s;
+}
+
+.ribbon-nav a:hover {
+    color: var(--accent); 
+}
+
+.hamburger-btn {
+    background: none;
+    border: none;
+    color: var(--text-main);
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none; 
+}
+
+/* --- PROJE İÇERİK KAPSAYICISI (Wrapper) --- */
+.project-content-wrapper {
+    background-color: var(--surface-color); 
+    padding: 40px;
+    border-radius: 0 0 8px 8px; /* Üst köşeler Ribbon ile birleştiği için dik, altlar oval */
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+    border-top: none; 
+
+    /* Ribbonun altına hafifçe gömülmüş gibi görünmesi için senin eklediğin negatif margin */
+    margin-top: -10px; 
+    position: relative;
+    z-index: 1; /* Ribbonun bir tık altında, ama en arkada değil */
+}
+
+/* --- PROJE DETAY BİLGİLERİ --- */
+.detail-header {
+    margin-bottom: 50px;
+    border-bottom: 1px solid var(--border-color); 
+    padding-bottom: 20px;
+}
+
+.detail-year { 
+    font-family: monospace; 
+    color: var(--text-muted); 
+    font-size: 1.1rem; 
+}
+
+.detail-title { 
+    font-size: clamp(2.5rem, 4vw, 4rem); 
+    letter-spacing: -1px; 
+    margin: 15px 0; 
+    font-weight: 600;
+}
+
+.detail-summary { 
+    font-size: 1.2rem; 
+    color: var(--text-muted); 
+    line-height: 1.8; 
+}
+
+/* --- AKILLI MASONRY (TUĞLA) DİZİLİMİ (JS DESTEKLİ) --- */
+.detail-masonry-gallery {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    align-items: flex-start; /* Resimlerin kendi yüksekliklerinde kalmasını sağlar */
+}
+
+/* JS tarafından oluşturulacak sütunların stili */
+.masonry-column {
+    flex: 1; /* Tüm sütunlar eşit genişlikte olur */
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Alt alta binen resimlerin boşluğu */
+}
+
+.masonry-column img {
+    width: 100%;
+    border-radius: 4px;
+    display: block; 
+    transition: transform 0.3s ease;
+}
+
+.masonry-column img:hover {
+    transform: scale(1.02); /* Hafif bir hover efekti çok şık durur */
+}
+
+/* --- MOBİL UYUMLULUK (Dar Ekranlar İçin) --- */
+@media (max-width: 767px) {
+    .project-ribbon {
+        padding: 10px 15px; 
+    }
+
+    .ribbon-nav {
+        display: none; 
+    }
+
+    .hamburger-btn {
+        display: block; 
+    }
+
+    .ribbon-name {
+        display: none; 
+    }
+
+    .project-content-wrapper {
+        padding: 20px; 
+    }
+}
+
+/* --- PHOTOSWIPE ÖZELLEŞTİRMELERİ --- */
+.pswp__bg {
+    background: var(--bg-color) !important; /* Senin D&D tarzı arkaplan rengin */
+}
+
+/* Lightbox içindeki resimlere hafif bir gölge */
+.pswp__img {
+    box-shadow: 0 10px 30px rgba(0,0,0,0.8);
+    border-radius: 4px;
+}
+
+/* Galeri içindeki Tıklanabilir Linkler */
+.masonry-column a {
+    display: block;
+    width: 100%;
+}

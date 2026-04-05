@@ -1,0 +1,57 @@
+/* ==========================================================================
+   BASE CSS: Renk Değişkenleri, Sıfırlamalar ve Ortak İskelet Kararları
+   ========================================================================== */
+
+:root {
+    /* Renk Paleti - D&D hissi ve modern mimari dokunuşlar */
+    --bg-color: #1a1a1a;         /* Derin siyah arka plan */
+    --surface-color: #1a1a1a;    /* Kart ve profil foto alanı için yüzey rengi */
+    --border-color: #4d4d4d;     /* Teknik dashed çizgiler için */
+    --text-main: #d9d9d9;        /* Temiz, okunabilir açık gri */
+    --text-muted: #a6a6a6;       /* Daha koyu gri (Alt metinler için) */
+    --accent: #b52b2b;           /* Kırmızı vurgu */
+    --accent-secondary: #d9534f; /* Butonlar için daha açık kırmızı vurgu */
+}
+
+/* Tüm elementlerin varsayılan boşluklarını sıfırlayıp, kutu modelini düzeltiyoruz */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', -apple-system, sans-serif;
+}
+
+/* Ana gövde ayarları */
+body {
+    background-color: var(--bg-color);
+    color: var(--text-main);
+    line-height: 1.6;
+    padding: 30px 20px;
+    min-width: 550px; /* Sitenin rijitliğini koruyan en dar görünüm sınırı */
+}
+
+/* Dar ekranlarda genel iç boşlukları (padding) daraltıyoruz */
+@media (max-width: 550px) {
+    body {
+        padding: 10px 10px; 
+    }
+}
+
+/* Sitenin ana kapsayıcısı */
+#app {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* ==========================================================================
+   PDF PRINT MODU VE YARDIMCI SINIFLAR
+   ========================================================================== */
+.print-mode { 
+    background-color: white !important; 
+    color: black !important; 
+}
+.print-mode .project-card { border: none; }
+.print-mode .border-color { border-color: #ccc; }
+.print-mode .back-btn { background: none; color: black; border: 1px solid #333; }
+
+.hidden { display: none; }

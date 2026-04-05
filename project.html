@@ -2,16 +2,41 @@
 <html lang="tr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta id="myViewport" name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <script>
+        // Eğer cihazın ekranı 550px'ten küçükse, siteyi 550px'e sabitleyip ekrana sığacak şekilde küçült
+        if (window.screen.width < 550) {
+            document.getElementById("myViewport").setAttribute("content", "width=550, user-scalable=no");
+        }
+    </script>
     <title>Proje Detayı</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/project.css">
+    <link rel="stylesheet" href="https://unpkg.com/photoswipe@5.4.3/dist/photoswipe.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
     <main id="app">
-        <a href="index.html" class="back-btn">← Geri Dön</a>
-        <section id="project-detail-content"></section>
+        <header class="project-ribbon">
+            <div class="ribbon-left">
+                <a href="index.html" class="ribbon-back-btn">← Geri Dön</a>
+                <span class="ribbon-name">Furkan Oytun Ayçin</span>
+            </div>
+            
+            <div class="ribbon-right">
+                <nav class="ribbon-nav">
+                    <a href="index.html">Ana Sayfa</a>
+                    <a href="#">Hakkımda</a>
+                    <a href="#">İletişim</a>
+                </nav>
+                <button class="hamburger-btn">☰</button>
+            </div>
+        </header>
+
+        <div class="project-content-wrapper">
+            <section id="project-detail-content"></section>
+        </div>
     </main>
-    <script src="script.js"></script>
+    <script type="module" src="script.js"></script>
 </body>
 </html>

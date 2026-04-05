@@ -35,7 +35,7 @@
       "previewImages": {
         "kapak": "img/projeler/paylasımlı-ofis/thumb/1_r_01_kapak.webp",
         "yan1": "img/projeler/paylasımlı-ofis/thumb/1_r_03_yan1.webp",
-        "yan2": "img/projeler/paylasımlı-ofis/thumb/3_k_01_yan2.webp"
+        "yan2": "img/projeler/paylasımlı-ofis/thumb/3_k_01_yan2_Kesit.webp"
       },
       "detailImages": [
         {
@@ -43,77 +43,77 @@
           "thumb": "img/projeler/paylasımlı-ofis/thumb/1_r_01_kapak.webp",
           "width": 3545,
           "height": 2507,
-          "alt": "1 R 01"
+          "alt": ""
         },
         {
           "src": "img/projeler/paylasımlı-ofis/src/1_r_02.webp",
           "thumb": "img/projeler/paylasımlı-ofis/thumb/1_r_02.webp",
           "width": 3401,
           "height": 2403,
-          "alt": "1 R 02"
+          "alt": ""
         },
         {
           "src": "img/projeler/paylasımlı-ofis/src/1_r_03_yan1.webp",
           "thumb": "img/projeler/paylasımlı-ofis/thumb/1_r_03_yan1.webp",
           "width": 3402,
           "height": 2404,
-          "alt": "1 R 03"
+          "alt": ""
         },
         {
-          "src": "img/projeler/paylasımlı-ofis/src/2_p_01.webp",
-          "thumb": "img/projeler/paylasımlı-ofis/thumb/2_p_01.webp",
+          "src": "img/projeler/paylasımlı-ofis/src/2_p_01_Zemin-Kat-Planı.webp",
+          "thumb": "img/projeler/paylasımlı-ofis/thumb/2_p_01_Zemin-Kat-Planı.webp",
           "width": 3570,
           "height": 2650,
-          "alt": "2 P 01"
+          "alt": "Zemin Kat Planı"
         },
         {
-          "src": "img/projeler/paylasımlı-ofis/src/2_p_02.webp",
-          "thumb": "img/projeler/paylasımlı-ofis/thumb/2_p_02.webp",
+          "src": "img/projeler/paylasımlı-ofis/src/2_p_02_1.-Kat-Planı.webp",
+          "thumb": "img/projeler/paylasımlı-ofis/thumb/2_p_02_1.-Kat-Planı.webp",
           "width": 3570,
           "height": 2650,
-          "alt": "2 P 02"
+          "alt": "1. Kat Planı"
         },
         {
-          "src": "img/projeler/paylasımlı-ofis/src/2_p_03.webp",
-          "thumb": "img/projeler/paylasımlı-ofis/thumb/2_p_03.webp",
+          "src": "img/projeler/paylasımlı-ofis/src/2_p_03_2.-Kat-Planı.webp",
+          "thumb": "img/projeler/paylasımlı-ofis/thumb/2_p_03_2.-Kat-Planı.webp",
           "width": 3570,
           "height": 2650,
-          "alt": "2 P 03"
+          "alt": "2. Kat Planı"
         },
         {
-          "src": "img/projeler/paylasımlı-ofis/src/2_p_04.webp",
-          "thumb": "img/projeler/paylasımlı-ofis/thumb/2_p_04.webp",
+          "src": "img/projeler/paylasımlı-ofis/src/2_p_04_3.-Kat-Planı.webp",
+          "thumb": "img/projeler/paylasımlı-ofis/thumb/2_p_04_3.-Kat-Planı.webp",
           "width": 3570,
           "height": 2650,
-          "alt": "2 P 04"
+          "alt": "3. Kat Planı"
         },
         {
-          "src": "img/projeler/paylasımlı-ofis/src/2_p_05.webp",
-          "thumb": "img/projeler/paylasımlı-ofis/thumb/2_p_05.webp",
+          "src": "img/projeler/paylasımlı-ofis/src/2_p_05_4.-Kat-Planı.webp",
+          "thumb": "img/projeler/paylasımlı-ofis/thumb/2_p_05_4.-Kat-Planı.webp",
           "width": 3570,
           "height": 2650,
-          "alt": "2 P 05"
+          "alt": "4. Kat Planı"
         },
         {
-          "src": "img/projeler/paylasımlı-ofis/src/2_p_06.webp",
-          "thumb": "img/projeler/paylasımlı-ofis/thumb/2_p_06.webp",
+          "src": "img/projeler/paylasımlı-ofis/src/2_p_06_Bodrum-Kat-Planı.webp",
+          "thumb": "img/projeler/paylasımlı-ofis/thumb/2_p_06_Bodrum-Kat-Planı.webp",
           "width": 3570,
           "height": 2650,
-          "alt": "2 P 06"
+          "alt": "Bodrum Kat Planı"
         },
         {
-          "src": "img/projeler/paylasımlı-ofis/src/3_k_01_yan2.webp",
-          "thumb": "img/projeler/paylasımlı-ofis/thumb/3_k_01_yan2.webp",
+          "src": "img/projeler/paylasımlı-ofis/src/3_k_01_yan2_Kesit.webp",
+          "thumb": "img/projeler/paylasımlı-ofis/thumb/3_k_01_yan2_Kesit.webp",
           "width": 3550,
           "height": 1299,
-          "alt": "3 K 01"
+          "alt": "Kesit"
         },
         {
-          "src": "img/projeler/paylasımlı-ofis/src/3_k_02.webp",
-          "thumb": "img/projeler/paylasımlı-ofis/thumb/3_k_02.webp",
+          "src": "img/projeler/paylasımlı-ofis/src/3_k_02_Görünüş.webp",
+          "thumb": "img/projeler/paylasımlı-ofis/thumb/3_k_02_Görünüş.webp",
           "width": 3550,
           "height": 1476,
-          "alt": "3 K 02"
+          "alt": "Görünüş"
         }
       ]
     }

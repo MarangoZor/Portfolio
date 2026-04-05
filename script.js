@@ -93,18 +93,14 @@ function buildProjectDetail(projects) {
 
     renderMasonry(project.detailImages);
 
-    // Mevcut genişliği hafızaya al
     let currentWidth = window.innerWidth;
-    
     window.addEventListener('resize', () => {
-        // Sadece genişlik gerçekten değiştiyse (telefonu yan çevirmek gibi) yeniden çiz
         if (window.innerWidth !== currentWidth) {
             currentWidth = window.innerWidth;
             renderMasonry(project.detailImages);
         }
     });
 
-    // 1. ADIM: PhotoSwipe'ı 'gallery' ve 'children' olmadan, serbest modda başlatıyoruz
     const lightbox = new PhotoSwipeLightbox({
         pswpModule: () => import('https://unpkg.com/photoswipe@5.4.3/dist/photoswipe.esm.min.js'),
         bgOpacity: 0.9, 
@@ -112,34 +108,63 @@ function buildProjectDetail(projects) {
             return { top: 30, bottom: 30, left: 30, right: 30 }; 
         }
     });
+
+    // PHOTOSWIPE ÜST BARA METİN EKLEME ÖZELLİĞİ (DÜZELTİLDİ)
+    lightbox.on('uiRegister', function() {
+        lightbox.pswp.ui.registerElement({
+            name: 'custom-caption',
+            order: 9,
+            isButton: false,
+            appendTo: 'topBar',
+            html: '',
+            onInit: (el, pswp) => {
+                // Slayt her değiştiğinde başlığı güncelle
+                pswp.on('change', () => {
+                    // Doğrudan PhotoSwipe verisindeki 'alt' alanını okuyoruz
+                    const captionText = pswp.currSlide.data.alt || '';
+                    el.innerHTML = captionText;
+                });
+            }
+        });
+    });
+
     lightbox.init();
 
-    // 2. ADIM: Tıklama olayını biz yönetiyoruz
     const masonryContainer = document.getElementById('masonry-container');
+    
+    // TIKLAMA OLAYI
     masonryContainer.addEventListener('click', (e) => {
-        const link = e.target.closest('a');
+        const link = e.target.closest('.masonry-item'); // Artık class'ımız masonry-item
         if (link) {
-            e.preventDefault(); // Resmin yeni sekmede açılmasını engelle
-            
-            // Tıklanan resmin gerçek sırasını (index) al
+            e.preventDefault(); 
             const index = parseInt(link.getAttribute('data-index'), 10);
             
-            // PhotoSwipe'a orijinal sıradaki (1, 2, 3...) listeyi ve zoom yapacağı elementleri veriyoruz
             const dataSource = project.detailImages.map((imgData, i) => {
-                const imgElement = masonryContainer.querySelector(`a[data-index="${i}"] img`);
+                const imgElement = masonryContainer.querySelector(`.masonry-item[data-index="${i}"] img`);
                 return {
                     src: imgData.src,
                     width: imgData.width,
                     height: imgData.height,
                     alt: imgData.alt,
-                    element: imgElement // Açılış/kapanış animasyonunun doğru resme gitmesi için şart
+                    element: imgElement 
                 };
             });
 
-            // Lightbox'ı bu özel sırayla ve tıklanan indeksle aç
             lightbox.loadAndOpen(index, dataSource);
         }
     });
+
+    // MOBİL İÇİN DOKUNMA (TOUCH) İLE HOVER EFEKTİ
+    masonryContainer.addEventListener('touchstart', (e) => {
+        const link = e.target.closest('.masonry-item');
+        // Ekrana her dokunuşta diğer açık hover'ları temizle
+        document.querySelectorAll('.masonry-item').forEach(el => el.classList.remove('touch-hover'));
+        
+        // Eğer resme dokunulduysa hover class'ını ona ver
+        if (link) {
+            link.classList.add('touch-hover');
+        }
+    }, {passive: true});
 }
 
 function renderMasonry(images) {
@@ -163,12 +188,17 @@ function renderMasonry(images) {
     images.forEach((imgData, index) => {
         if(typeof imgData === 'string') return; 
 
-        // 3. ADIM: Her a etiketine data-index ekliyoruz ki sırasını bilelim
+        // Eğer açıklama metni varsa "masonry-caption" kutusunu HTML'e dahil et
+        const captionHTML = imgData.alt ? `<div class="masonry-caption">${imgData.alt}</div>` : '';
+
+        // SADECE <a> ETİKETİ DEĞİL, KAPASAYICI CLASS (.masonry-item) EKLENDİ
         const linkHTML = `
             <a href="${imgData.src}" 
                data-index="${index}" 
+               class="masonry-item"
                target="_blank">
                 <img src="${imgData.thumb}" alt="${imgData.alt}" loading="lazy">
+                ${captionHTML}
             </a>
         `;
         

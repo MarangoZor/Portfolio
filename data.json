@@ -16,16 +16,101 @@
   },
   "projects": [
     {
-      "id": "kulucka-merkezi",
-      "title": "Oyun Geliştirme Kuluçka Merkezi",
+      "id": "Sirkeci'de-Kütüphane",
+      "title": "Sirkeci'De KüTüPhane",
       "year": "2026",
-      "summary": "Dijital oyun geliştiricileri için tasarlanmış diploma projesi konsepti. (16 Görsel)",
+      "summary": "Bu proje için henüz bir açıklama girilmedi.",
       "previewImages": {
-        "kapak": "https://placehold.co/800x800/1e1e1e/white?text=Kuluçka+Kapak",
-        "yan1": "https://placehold.co/400x400/2a2a2a/white?text=Yan+1",
-        "yan2": "https://placehold.co/400x400/333333/white?text=Yan+2"
+        "kapak": "img/projeler/Sirkeci'de-Kütüphane/thumb/2_p_02_kapak_1.-Kat-Planı.webp",
+        "yan2": "img/projeler/Sirkeci'de-Kütüphane/thumb/4_p_01_yan2.webp",
+        "yan1": "img/projeler/Sirkeci'de-Kütüphane/thumb/4_p_02_yan1.webp"
       },
-      "detailImages": []
+      "detailImages": [
+        {
+          "src": "img/projeler/Sirkeci'de-Kütüphane/src/1_v_01.webp",
+          "thumb": "img/projeler/Sirkeci'de-Kütüphane/thumb/1_v_01.webp",
+          "width": 4417,
+          "height": 2952,
+          "alt": ""
+        },
+        {
+          "src": "img/projeler/Sirkeci'de-Kütüphane/src/1_v_02_1954-Vaziyeti.webp",
+          "thumb": "img/projeler/Sirkeci'de-Kütüphane/thumb/1_v_02_1954-Vaziyeti.webp",
+          "width": 2119,
+          "height": 1414,
+          "alt": "1954 Vaziyeti"
+        },
+        {
+          "src": "img/projeler/Sirkeci'de-Kütüphane/src/2_p_01_Zemin-Kat-Planı.webp",
+          "thumb": "img/projeler/Sirkeci'de-Kütüphane/thumb/2_p_01_Zemin-Kat-Planı.webp",
+          "width": 6655,
+          "height": 5047,
+          "alt": "Zemin Kat Planı"
+        },
+        {
+          "src": "img/projeler/Sirkeci'de-Kütüphane/src/2_p_02_kapak_1.-Kat-Planı.webp",
+          "thumb": "img/projeler/Sirkeci'de-Kütüphane/thumb/2_p_02_kapak_1.-Kat-Planı.webp",
+          "width": 6651,
+          "height": 5046,
+          "alt": "1. Kat Planı"
+        },
+        {
+          "src": "img/projeler/Sirkeci'de-Kütüphane/src/2_p_03_Bodrum-Kat-Planı.webp",
+          "thumb": "img/projeler/Sirkeci'de-Kütüphane/thumb/2_p_03_Bodrum-Kat-Planı.webp",
+          "width": 6651,
+          "height": 5046,
+          "alt": "Bodrum Kat Planı"
+        },
+        {
+          "src": "img/projeler/Sirkeci'de-Kütüphane/src/3_k_01_A-A-Kesiti.webp",
+          "thumb": "img/projeler/Sirkeci'de-Kütüphane/thumb/3_k_01_A-A-Kesiti.webp",
+          "width": 7039,
+          "height": 1381,
+          "alt": "A A Kesiti"
+        },
+        {
+          "src": "img/projeler/Sirkeci'de-Kütüphane/src/3_k_02_B-B-Kesiti.webp",
+          "thumb": "img/projeler/Sirkeci'de-Kütüphane/thumb/3_k_02_B-B-Kesiti.webp",
+          "width": 7330,
+          "height": 2218,
+          "alt": "B B Kesiti"
+        },
+        {
+          "src": "img/projeler/Sirkeci'de-Kütüphane/src/3_k_03_C-C-Kesiti.webp",
+          "thumb": "img/projeler/Sirkeci'de-Kütüphane/thumb/3_k_03_C-C-Kesiti.webp",
+          "width": 7330,
+          "height": 2214,
+          "alt": "C C Kesiti"
+        },
+        {
+          "src": "img/projeler/Sirkeci'de-Kütüphane/src/4_p_01_yan2.webp",
+          "thumb": "img/projeler/Sirkeci'de-Kütüphane/thumb/4_p_01_yan2.webp",
+          "width": 2119,
+          "height": 1125,
+          "alt": ""
+        },
+        {
+          "src": "img/projeler/Sirkeci'de-Kütüphane/src/4_p_02_yan1.webp",
+          "thumb": "img/projeler/Sirkeci'de-Kütüphane/thumb/4_p_02_yan1.webp",
+          "width": 2119,
+          "height": 1416,
+          "alt": ""
+        },
+        {
+          "src": "img/projeler/Sirkeci'de-Kütüphane/src/4_p_03.webp",
+          "thumb": "img/projeler/Sirkeci'de-Kütüphane/thumb/4_p_03.webp",
+          "width": 2119,
+          "height": 1416,
+          "alt": ""
+        },
+        {
+          "src": "img/projeler/Sirkeci'de-Kütüphane/src/4_p_04.webp",
+          "thumb": "img/projeler/Sirkeci'de-Kütüphane/thumb/4_p_04.webp",
+          "width": 2119,
+          "height": 1125,
+          "alt": ""
+        }
+      ]
     },
     {
       "id": "paylasımlı-ofis",

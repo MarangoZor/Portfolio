@@ -16,6 +16,243 @@
   },
   "projects": [
     {
+      "id": "Toplu-Konut",
+      "title": "Toplu Konut",
+      "year": "2026",
+      "summary": "Bu proje için henüz bir açıklama girilmedi.",
+      "previewImages": {
+        "yan1": "img/projeler/Toplu-Konut/thumb/1_v_03_yan1.webp",
+        "kapak": "img/projeler/Toplu-Konut/thumb/6_r_01_kapak.webp",
+        "yan2": "img/projeler/Toplu-Konut/thumb/6_r_04_yan2.webp"
+      },
+      "detailImages": [
+        {
+          "src": "img/projeler/Toplu-Konut/src/1_v_01.webp",
+          "thumb": "img/projeler/Toplu-Konut/thumb/1_v_01.webp",
+          "width": 2287,
+          "height": 1628,
+          "alt": ""
+        },
+        {
+          "src": "img/projeler/Toplu-Konut/src/1_v_02.webp",
+          "thumb": "img/projeler/Toplu-Konut/thumb/1_v_02.webp",
+          "width": 3192,
+          "height": 2372,
+          "alt": ""
+        },
+        {
+          "src": "img/projeler/Toplu-Konut/src/1_v_03_yan1.webp",
+          "thumb": "img/projeler/Toplu-Konut/thumb/1_v_03_yan1.webp",
+          "width": 3183,
+          "height": 2110,
+          "alt": ""
+        },
+        {
+          "src": "img/projeler/Toplu-Konut/src/2_s_00_Bulvar-Silüeti.webp",
+          "thumb": "img/projeler/Toplu-Konut/thumb/2_s_00_Bulvar-Silüeti.webp",
+          "width": 5656,
+          "height": 2195,
+          "alt": "Bulvar Silüeti"
+        },
+        {
+          "src": "img/projeler/Toplu-Konut/src/2_s_02_Park-Silüeti.webp",
+          "thumb": "img/projeler/Toplu-Konut/thumb/2_s_02_Park-Silüeti.webp",
+          "width": 4901,
+          "height": 1986,
+          "alt": "Park Silüeti"
+        },
+        {
+          "src": "img/projeler/Toplu-Konut/src/3_p_01_Zemin-Kat-Planı.webp",
+          "thumb": "img/projeler/Toplu-Konut/thumb/3_p_01_Zemin-Kat-Planı.webp",
+          "width": 4400,
+          "height": 2401,
+          "alt": "Zemin Kat Planı"
+        },
+        {
+          "src": "img/projeler/Toplu-Konut/src/3_p_02_1.-Kat-Planı.webp",
+          "thumb": "img/projeler/Toplu-Konut/thumb/3_p_02_1.-Kat-Planı.webp",
+          "width": 4400,
+          "height": 2401,
+          "alt": "1. Kat Planı"
+        },
+        {
+          "src": "img/projeler/Toplu-Konut/src/3_p_03_2.-Kat-Planı.webp",
+          "thumb": "img/projeler/Toplu-Konut/thumb/3_p_03_2.-Kat-Planı.webp",
+          "width": 4400,
+          "height": 2401,
+          "alt": "2. Kat Planı"
+        },
+        {
+          "src": "img/projeler/Toplu-Konut/src/3_p_04_3.-Kat-Planı.webp",
+          "thumb": "img/projeler/Toplu-Konut/thumb/3_p_04_3.-Kat-Planı.webp",
+          "width": 4400,
+          "height": 2401,
+          "alt": "3. Kat Planı"
+        },
+        {
+          "src": "img/projeler/Toplu-Konut/src/3_p_05_4.-Kat-Planı.webp",
+          "thumb": "img/projeler/Toplu-Konut/thumb/3_p_05_4.-Kat-Planı.webp",
+          "width": 4400,
+          "height": 2401,
+          "alt": "4. Kat Planı"
+        },
+        {
+          "src": "img/projeler/Toplu-Konut/src/3_p_06_5.-Kat-Planı.webp",
+          "thumb": "img/projeler/Toplu-Konut/thumb/3_p_06_5.-Kat-Planı.webp",
+          "width": 4400,
+          "height": 2401,
+          "alt": "5. Kat Planı"
+        },
+        {
+          "src": "img/projeler/Toplu-Konut/src/3_p_07_6.-Kat-Planı.webp",
+          "thumb": "img/projeler/Toplu-Konut/thumb/3_p_07_6.-Kat-Planı.webp",
+          "width": 4400,
+          "height": 2401,
+          "alt": "6. Kat Planı"
+        },
+        {
+          "src": "img/projeler/Toplu-Konut/src/3_p_08_Vaziyet-Planı.webp",
+          "thumb": "img/projeler/Toplu-Konut/thumb/3_p_08_Vaziyet-Planı.webp",
+          "width": 4400,
+          "height": 2401,
+          "alt": "Vaziyet Planı"
+        },
+        {
+          "src": "img/projeler/Toplu-Konut/src/3_p_09_Bodrum-Kat-Planı.webp",
+          "thumb": "img/projeler/Toplu-Konut/thumb/3_p_09_Bodrum-Kat-Planı.webp",
+          "width": 4400,
+          "height": 2401,
+          "alt": "Bodrum Kat Planı"
+        },
+        {
+          "src": "img/projeler/Toplu-Konut/src/4_k_00.webp",
+          "thumb": "img/projeler/Toplu-Konut/thumb/4_k_00.webp",
+          "width": 2842,
+          "height": 3024,
+          "alt": ""
+        },
+        {
+          "src": "img/projeler/Toplu-Konut/src/4_k_01_A-A-Kesiti.webp",
+          "thumb": "img/projeler/Toplu-Konut/thumb/4_k_01_A-A-Kesiti.webp",
+          "width": 3914,
+          "height": 1663,
+          "alt": "A A Kesiti"
+        },
+        {
+          "src": "img/projeler/Toplu-Konut/src/4_k_02_B-B-Kesiti.webp",
+          "thumb": "img/projeler/Toplu-Konut/thumb/4_k_02_B-B-Kesiti.webp",
+          "width": 4136,
+          "height": 1596,
+          "alt": "B B Kesiti"
+        },
+        {
+          "src": "img/projeler/Toplu-Konut/src/4_k_03_C-C-Kesiti.webp",
+          "thumb": "img/projeler/Toplu-Konut/thumb/4_k_03_C-C-Kesiti.webp",
+          "width": 4107,
+          "height": 1434,
+          "alt": "C C Kesiti"
+        },
+        {
+          "src": "img/projeler/Toplu-Konut/src/4_k_04_D-D-Kesiti.webp",
+          "thumb": "img/projeler/Toplu-Konut/thumb/4_k_04_D-D-Kesiti.webp",
+          "width": 4093,
+          "height": 1483,
+          "alt": "D D Kesiti"
+        },
+        {
+          "src": "img/projeler/Toplu-Konut/src/4_k_05_E-E-Kesiti.webp",
+          "thumb": "img/projeler/Toplu-Konut/thumb/4_k_05_E-E-Kesiti.webp",
+          "width": 4177,
+          "height": 1543,
+          "alt": "E E Kesiti"
+        },
+        {
+          "src": "img/projeler/Toplu-Konut/src/4_k_06_F-F-Kesiti.webp",
+          "thumb": "img/projeler/Toplu-Konut/thumb/4_k_06_F-F-Kesiti.webp",
+          "width": 3834,
+          "height": 1395,
+          "alt": "F F Kesiti"
+        },
+        {
+          "src": "img/projeler/Toplu-Konut/src/5_g_00.webp",
+          "thumb": "img/projeler/Toplu-Konut/thumb/5_g_00.webp",
+          "width": 6178,
+          "height": 3649,
+          "alt": ""
+        },
+        {
+          "src": "img/projeler/Toplu-Konut/src/5_g_01.webp",
+          "thumb": "img/projeler/Toplu-Konut/thumb/5_g_01.webp",
+          "width": 6230,
+          "height": 1667,
+          "alt": ""
+        },
+        {
+          "src": "img/projeler/Toplu-Konut/src/5_g_02.webp",
+          "thumb": "img/projeler/Toplu-Konut/thumb/5_g_02.webp",
+          "width": 6180,
+          "height": 1355,
+          "alt": ""
+        },
+        {
+          "src": "img/projeler/Toplu-Konut/src/5_g_03.webp",
+          "thumb": "img/projeler/Toplu-Konut/thumb/5_g_03.webp",
+          "width": 5979,
+          "height": 1352,
+          "alt": ""
+        },
+        {
+          "src": "img/projeler/Toplu-Konut/src/6_r_01_kapak.webp",
+          "thumb": "img/projeler/Toplu-Konut/thumb/6_r_01_kapak.webp",
+          "width": 3538,
+          "height": 1960,
+          "alt": ""
+        },
+        {
+          "src": "img/projeler/Toplu-Konut/src/6_r_02.webp",
+          "thumb": "img/projeler/Toplu-Konut/thumb/6_r_02.webp",
+          "width": 3537,
+          "height": 1146,
+          "alt": ""
+        },
+        {
+          "src": "img/projeler/Toplu-Konut/src/6_r_03.webp",
+          "thumb": "img/projeler/Toplu-Konut/thumb/6_r_03.webp",
+          "width": 1363,
+          "height": 1144,
+          "alt": ""
+        },
+        {
+          "src": "img/projeler/Toplu-Konut/src/6_r_04_yan2.webp",
+          "thumb": "img/projeler/Toplu-Konut/thumb/6_r_04_yan2.webp",
+          "width": 3544,
+          "height": 1828,
+          "alt": ""
+        },
+        {
+          "src": "img/projeler/Toplu-Konut/src/6_r_05.webp",
+          "thumb": "img/projeler/Toplu-Konut/thumb/6_r_05.webp",
+          "width": 3538,
+          "height": 1796,
+          "alt": ""
+        },
+        {
+          "src": "img/projeler/Toplu-Konut/src/6_r_06.webp",
+          "thumb": "img/projeler/Toplu-Konut/thumb/6_r_06.webp",
+          "width": 3531,
+          "height": 1621,
+          "alt": ""
+        },
+        {
+          "src": "img/projeler/Toplu-Konut/src/6_r_07.webp",
+          "thumb": "img/projeler/Toplu-Konut/thumb/6_r_07.webp",
+          "width": 3532,
+          "height": 1825,
+          "alt": ""
+        }
+      ]
+    },
+    {
       "id": "paylasımlı-ofis",
       "title": "Paylasımlı Ofis",
       "year": "2026",

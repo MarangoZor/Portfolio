@@ -438,6 +438,325 @@
           "alt": ""
         }
       ]
+    },
+    {
+      "id": "Grashopper-Projelerim",
+      "title": "Grashopper Projelerim",
+      "year": "2026",
+      "summary": "Bu proje için henüz bir açıklama girilmedi.",
+      "previewImages": {
+        "kapak": "img/projeler/Grashopper-Projelerim/thumb/1_t_kapak.webp",
+        "yan1": "img/projeler/Grashopper-Projelerim/thumb/2_t_yan1.webp",
+        "yan2": "img/projeler/Grashopper-Projelerim/thumb/3_t_yan2.webp"
+      },
+      "detailImages": [
+        {
+          "src": "img/projeler/Grashopper-Projelerim/src/1_t_kapak.webp",
+          "thumb": "img/projeler/Grashopper-Projelerim/thumb/1_t_kapak.webp",
+          "width": 4961,
+          "height": 3508,
+          "alt": ""
+        },
+        {
+          "src": "img/projeler/Grashopper-Projelerim/src/2_t_yan1.webp",
+          "thumb": "img/projeler/Grashopper-Projelerim/thumb/2_t_yan1.webp",
+          "width": 4961,
+          "height": 2811,
+          "alt": ""
+        },
+        {
+          "src": "img/projeler/Grashopper-Projelerim/src/3_t_yan2.webp",
+          "thumb": "img/projeler/Grashopper-Projelerim/thumb/3_t_yan2.webp",
+          "width": 9933,
+          "height": 7016,
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "id": "Mekan-Projesi-Dersi",
+      "title": "Mekan Projesi Dersi",
+      "year": "2026",
+      "summary": "Bu proje için henüz bir açıklama girilmedi.",
+      "previewImages": {
+        "kapak": "img/projeler/Mekan-Projesi-Dersi/thumb/20221301060_FURKANOYTUNAYÇİN_02_kapak.webp",
+        "yan1": "img/projeler/Mekan-Projesi-Dersi/thumb/20221301060_FURKANOYTUNAYÇİN_03_yan1.webp",
+        "yan2": "img/projeler/Mekan-Projesi-Dersi/thumb/20221301060_FURKANOYTUNAYÇİN_05_yan2.webp"
+      },
+      "detailImages": [
+        {
+          "src": "img/projeler/Mekan-Projesi-Dersi/src/20221301060_FURKANOYTUNAYÇİN_04.webp",
+          "thumb": "img/projeler/Mekan-Projesi-Dersi/thumb/20221301060_FURKANOYTUNAYÇİN_04.webp",
+          "width": 3368,
+          "height": 4768,
+          "alt": ""
+        },
+        {
+          "src": "img/projeler/Mekan-Projesi-Dersi/src/20221301060_FURKANOYTUNAYÇİN_06.webp",
+          "thumb": "img/projeler/Mekan-Projesi-Dersi/thumb/20221301060_FURKANOYTUNAYÇİN_06.webp",
+          "width": 3368,
+          "height": 4768,
+          "alt": ""
+        },
+        {
+          "src": "img/projeler/Mekan-Projesi-Dersi/src/20221301060_FURKANOYTUNAYÇİN_01.webp",
+          "thumb": "img/projeler/Mekan-Projesi-Dersi/thumb/20221301060_FURKANOYTUNAYÇİN_01.webp",
+          "width": 3368,
+          "height": 4768,
+          "alt": ""
+        },
+        {
+          "src": "img/projeler/Mekan-Projesi-Dersi/src/20221301060_FURKANOYTUNAYÇİN_02_kapak.webp",
+          "thumb": "img/projeler/Mekan-Projesi-Dersi/thumb/20221301060_FURKANOYTUNAYÇİN_02_kapak.webp",
+          "width": 3368,
+          "height": 4768,
+          "alt": ""
+        },
+        {
+          "src": "img/projeler/Mekan-Projesi-Dersi/src/20221301060_FURKANOYTUNAYÇİN_03_yan1.webp",
+          "thumb": "img/projeler/Mekan-Projesi-Dersi/thumb/20221301060_FURKANOYTUNAYÇİN_03_yan1.webp",
+          "width": 3368,
+          "height": 4768,
+          "alt": ""
+        },
+        {
+          "src": "img/projeler/Mekan-Projesi-Dersi/src/20221301060_FURKANOYTUNAYÇİN_05_yan2.webp",
+          "thumb": "img/projeler/Mekan-Projesi-Dersi/thumb/20221301060_FURKANOYTUNAYÇİN_05_yan2.webp",
+          "width": 3341,
+          "height": 4768,
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "id": "Uugulama-Projesi-Dersi",
+      "title": "Uugulama Projesi Dersi",
+      "year": "2026",
+      "summary": "Bu proje için henüz bir açıklama girilmedi.",
+      "previewImages": {
+        "kapak": "img/projeler/Uugulama-Projesi-Dersi/thumb/2_02_kapak.webp",
+        "yan1": "img/projeler/Uugulama-Projesi-Dersi/thumb/1_02_yan1.webp",
+        "yan2": "img/projeler/Uugulama-Projesi-Dersi/thumb/1_19_yan2.webp"
+      },
+      "detailImages": [
+        {
+          "src": "img/projeler/Uugulama-Projesi-Dersi/src/1_01.webp",
+          "thumb": "img/projeler/Uugulama-Projesi-Dersi/thumb/1_01.webp",
+          "width": 1684,
+          "height": 1190,
+          "alt": ""
+        },
+        {
+          "src": "img/projeler/Uugulama-Projesi-Dersi/src/1_02_yan1.webp",
+          "thumb": "img/projeler/Uugulama-Projesi-Dersi/thumb/1_02_yan1.webp",
+          "width": 1684,
+          "height": 1190,
+          "alt": ""
+        },
+        {
+          "src": "img/projeler/Uugulama-Projesi-Dersi/src/1_03.webp",
+          "thumb": "img/projeler/Uugulama-Projesi-Dersi/thumb/1_03.webp",
+          "width": 1684,
+          "height": 1190,
+          "alt": ""
+        },
+        {
+          "src": "img/projeler/Uugulama-Projesi-Dersi/src/1_04.webp",
+          "thumb": "img/projeler/Uugulama-Projesi-Dersi/thumb/1_04.webp",
+          "width": 1684,
+          "height": 1190,
+          "alt": ""
+        },
+        {
+          "src": "img/projeler/Uugulama-Projesi-Dersi/src/1_05.webp",
+          "thumb": "img/projeler/Uugulama-Projesi-Dersi/thumb/1_05.webp",
+          "width": 1684,
+          "height": 1190,
+          "alt": ""
+        },
+        {
+          "src": "img/projeler/Uugulama-Projesi-Dersi/src/1_06.webp",
+          "thumb": "img/projeler/Uugulama-Projesi-Dersi/thumb/1_06.webp",
+          "width": 1684,
+          "height": 1190,
+          "alt": ""
+        },
+        {
+          "src": "img/projeler/Uugulama-Projesi-Dersi/src/1_07.webp",
+          "thumb": "img/projeler/Uugulama-Projesi-Dersi/thumb/1_07.webp",
+          "width": 1684,
+          "height": 1190,
+          "alt": ""
+        },
+        {
+          "src": "img/projeler/Uugulama-Projesi-Dersi/src/1_08.webp",
+          "thumb": "img/projeler/Uugulama-Projesi-Dersi/thumb/1_08.webp",
+          "width": 1684,
+          "height": 1190,
+          "alt": ""
+        },
+        {
+          "src": "img/projeler/Uugulama-Projesi-Dersi/src/1_09.webp",
+          "thumb": "img/projeler/Uugulama-Projesi-Dersi/thumb/1_09.webp",
+          "width": 3368,
+          "height": 2382,
+          "alt": ""
+        },
+        {
+          "src": "img/projeler/Uugulama-Projesi-Dersi/src/1_10.webp",
+          "thumb": "img/projeler/Uugulama-Projesi-Dersi/thumb/1_10.webp",
+          "width": 3368,
+          "height": 2382,
+          "alt": ""
+        },
+        {
+          "src": "img/projeler/Uugulama-Projesi-Dersi/src/1_11.webp",
+          "thumb": "img/projeler/Uugulama-Projesi-Dersi/thumb/1_11.webp",
+          "width": 3368,
+          "height": 2382,
+          "alt": ""
+        },
+        {
+          "src": "img/projeler/Uugulama-Projesi-Dersi/src/1_12.webp",
+          "thumb": "img/projeler/Uugulama-Projesi-Dersi/thumb/1_12.webp",
+          "width": 3368,
+          "height": 2382,
+          "alt": ""
+        },
+        {
+          "src": "img/projeler/Uugulama-Projesi-Dersi/src/1_13.webp",
+          "thumb": "img/projeler/Uugulama-Projesi-Dersi/thumb/1_13.webp",
+          "width": 3368,
+          "height": 2382,
+          "alt": ""
+        },
+        {
+          "src": "img/projeler/Uugulama-Projesi-Dersi/src/1_14.webp",
+          "thumb": "img/projeler/Uugulama-Projesi-Dersi/thumb/1_14.webp",
+          "width": 3368,
+          "height": 2382,
+          "alt": ""
+        },
+        {
+          "src": "img/projeler/Uugulama-Projesi-Dersi/src/1_15.webp",
+          "thumb": "img/projeler/Uugulama-Projesi-Dersi/thumb/1_15.webp",
+          "width": 3368,
+          "height": 2382,
+          "alt": ""
+        },
+        {
+          "src": "img/projeler/Uugulama-Projesi-Dersi/src/1_16.webp",
+          "thumb": "img/projeler/Uugulama-Projesi-Dersi/thumb/1_16.webp",
+          "width": 3368,
+          "height": 2382,
+          "alt": ""
+        },
+        {
+          "src": "img/projeler/Uugulama-Projesi-Dersi/src/1_17.webp",
+          "thumb": "img/projeler/Uugulama-Projesi-Dersi/thumb/1_17.webp",
+          "width": 3368,
+          "height": 2382,
+          "alt": ""
+        },
+        {
+          "src": "img/projeler/Uugulama-Projesi-Dersi/src/1_18.webp",
+          "thumb": "img/projeler/Uugulama-Projesi-Dersi/thumb/1_18.webp",
+          "width": 3368,
+          "height": 2382,
+          "alt": ""
+        },
+        {
+          "src": "img/projeler/Uugulama-Projesi-Dersi/src/1_19_yan2.webp",
+          "thumb": "img/projeler/Uugulama-Projesi-Dersi/thumb/1_19_yan2.webp",
+          "width": 3368,
+          "height": 4768,
+          "alt": ""
+        },
+        {
+          "src": "img/projeler/Uugulama-Projesi-Dersi/src/1_20.webp",
+          "thumb": "img/projeler/Uugulama-Projesi-Dersi/thumb/1_20.webp",
+          "width": 3368,
+          "height": 4768,
+          "alt": ""
+        },
+        {
+          "src": "img/projeler/Uugulama-Projesi-Dersi/src/1_21.webp",
+          "thumb": "img/projeler/Uugulama-Projesi-Dersi/thumb/1_21.webp",
+          "width": 2382,
+          "height": 3368,
+          "alt": ""
+        },
+        {
+          "src": "img/projeler/Uugulama-Projesi-Dersi/src/2_01.webp",
+          "thumb": "img/projeler/Uugulama-Projesi-Dersi/thumb/2_01.webp",
+          "width": 2678,
+          "height": 1427,
+          "alt": ""
+        },
+        {
+          "src": "img/projeler/Uugulama-Projesi-Dersi/src/2_02_kapak.webp",
+          "thumb": "img/projeler/Uugulama-Projesi-Dersi/thumb/2_02_kapak.webp",
+          "width": 2290,
+          "height": 1387,
+          "alt": ""
+        },
+        {
+          "src": "img/projeler/Uugulama-Projesi-Dersi/src/2_03.webp",
+          "thumb": "img/projeler/Uugulama-Projesi-Dersi/thumb/2_03.webp",
+          "width": 1964,
+          "height": 1408,
+          "alt": ""
+        },
+        {
+          "src": "img/projeler/Uugulama-Projesi-Dersi/src/2_04.webp",
+          "thumb": "img/projeler/Uugulama-Projesi-Dersi/thumb/2_04.webp",
+          "width": 2299,
+          "height": 1403,
+          "alt": ""
+        },
+        {
+          "src": "img/projeler/Uugulama-Projesi-Dersi/src/2_05.webp",
+          "thumb": "img/projeler/Uugulama-Projesi-Dersi/thumb/2_05.webp",
+          "width": 1855,
+          "height": 1418,
+          "alt": ""
+        },
+        {
+          "src": "img/projeler/Uugulama-Projesi-Dersi/src/2_06.webp",
+          "thumb": "img/projeler/Uugulama-Projesi-Dersi/thumb/2_06.webp",
+          "width": 1733,
+          "height": 1442,
+          "alt": ""
+        },
+        {
+          "src": "img/projeler/Uugulama-Projesi-Dersi/src/2_07.webp",
+          "thumb": "img/projeler/Uugulama-Projesi-Dersi/thumb/2_07.webp",
+          "width": 2593,
+          "height": 1426,
+          "alt": ""
+        },
+        {
+          "src": "img/projeler/Uugulama-Projesi-Dersi/src/2_08.webp",
+          "thumb": "img/projeler/Uugulama-Projesi-Dersi/thumb/2_08.webp",
+          "width": 2432,
+          "height": 1145,
+          "alt": ""
+        },
+        {
+          "src": "img/projeler/Uugulama-Projesi-Dersi/src/2_09.webp",
+          "thumb": "img/projeler/Uugulama-Projesi-Dersi/thumb/2_09.webp",
+          "width": 2419,
+          "height": 1436,
+          "alt": ""
+        },
+        {
+          "src": "img/projeler/Uugulama-Projesi-Dersi/src/2_10.webp",
+          "thumb": "img/projeler/Uugulama-Projesi-Dersi/thumb/2_10.webp",
+          "width": 2162,
+          "height": 1424,
+          "alt": ""
+        }
+      ]
     }
   ]
 }

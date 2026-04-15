@@ -684,21 +684,21 @@
           "thumb": "img/projeler/6_Grashopper-Projelerim/thumb/1_t_kapak.webp",
           "width": 4961,
           "height": 3508,
-          "alt": ""
+          "alt": "t"
         },
         {
           "src": "img/projeler/6_Grashopper-Projelerim/src/2_t_yan1.webp",
           "thumb": "img/projeler/6_Grashopper-Projelerim/thumb/2_t_yan1.webp",
           "width": 4961,
           "height": 2811,
-          "alt": ""
+          "alt": "t"
         },
         {
           "src": "img/projeler/6_Grashopper-Projelerim/src/3_t_yan2.webp",
           "thumb": "img/projeler/6_Grashopper-Projelerim/thumb/3_t_yan2.webp",
           "width": 9933,
           "height": 7016,
-          "alt": ""
+          "alt": "t"
         }
       ]
     },
@@ -986,6 +986,324 @@
         }
       ],
       "title": "Uygulama Projesi Dersi"
+    },
+    {
+      "id": "9_Envanter",
+      "year": "2026",
+      "summary": "Bu proje için henüz bir açıklama girilmedi.",
+      "previewImages": {
+      },
+      "detailImages": [
+        {
+          "src": "img/projeler/9_Envanter/src/Envanter_01.webp",
+          "thumb": "img/projeler/9_Envanter/thumb/Envanter_01.webp",
+          "width": 2571,
+          "height": 3428,
+          "alt": ""
+        },
+        {
+          "src": "img/projeler/9_Envanter/src/Envanter_02.webp",
+          "thumb": "img/projeler/9_Envanter/thumb/Envanter_02.webp",
+          "width": 2571,
+          "height": 3428,
+          "alt": ""
+        },
+        {
+          "src": "img/projeler/9_Envanter/src/Envanter_03.webp",
+          "thumb": "img/projeler/9_Envanter/thumb/Envanter_03.webp",
+          "width": 2571,
+          "height": 3428,
+          "alt": ""
+        },
+        {
+          "src": "img/projeler/9_Envanter/src/Envanter_04.webp",
+          "thumb": "img/projeler/9_Envanter/thumb/Envanter_04.webp",
+          "width": 2571,
+          "height": 3428,
+          "alt": ""
+        },
+        {
+          "src": "img/projeler/9_Envanter/src/Envanter_05.webp",
+          "thumb": "img/projeler/9_Envanter/thumb/Envanter_05.webp",
+          "width": 2571,
+          "height": 3428,
+          "alt": ""
+        },
+        {
+          "src": "img/projeler/9_Envanter/src/Envanter_06.webp",
+          "thumb": "img/projeler/9_Envanter/thumb/Envanter_06.webp",
+          "width": 2571,
+          "height": 3428,
+          "alt": ""
+        },
+        {
+          "src": "img/projeler/9_Envanter/src/Envanter_07.webp",
+          "thumb": "img/projeler/9_Envanter/thumb/Envanter_07.webp",
+          "width": 2571,
+          "height": 3428,
+          "alt": ""
+        },
+        {
+          "src": "img/projeler/9_Envanter/src/Envanter_08.webp",
+          "thumb": "img/projeler/9_Envanter/thumb/Envanter_08.webp",
+          "width": 2571,
+          "height": 3428,
+          "alt": ""
+        },
+        {
+          "src": "img/projeler/9_Envanter/src/Envanter_09.webp",
+          "thumb": "img/projeler/9_Envanter/thumb/Envanter_09.webp",
+          "width": 2571,
+          "height": 3428,
+          "alt": ""
+        },
+        {
+          "src": "img/projeler/9_Envanter/src/Envanter_10.webp",
+          "thumb": "img/projeler/9_Envanter/thumb/Envanter_10.webp",
+          "width": 2571,
+          "height": 3428,
+          "alt": ""
+        },
+        {
+          "src": "img/projeler/9_Envanter/src/Envanter_11.webp",
+          "thumb": "img/projeler/9_Envanter/thumb/Envanter_11.webp",
+          "width": 2571,
+          "height": 3428,
+          "alt": ""
+        },
+        {
+          "src": "img/projeler/9_Envanter/src/Envanter_12.webp",
+          "thumb": "img/projeler/9_Envanter/thumb/Envanter_12.webp",
+          "width": 2571,
+          "height": 3428,
+          "alt": ""
+        },
+        {
+          "src": "img/projeler/9_Envanter/src/Envanter_13.webp",
+          "thumb": "img/projeler/9_Envanter/thumb/Envanter_13.webp",
+          "width": 2571,
+          "height": 3428,
+          "alt": ""
+        },
+        {
+          "src": "img/projeler/9_Envanter/src/Envanter_14.webp",
+          "thumb": "img/projeler/9_Envanter/thumb/Envanter_14.webp",
+          "width": 2571,
+          "height": 3428,
+          "alt": ""
+        },
+        {
+          "src": "img/projeler/9_Envanter/src/Envanter_15.webp",
+          "thumb": "img/projeler/9_Envanter/thumb/Envanter_15.webp",
+          "width": 2571,
+          "height": 3428,
+          "alt": ""
+        },
+        {
+          "src": "img/projeler/9_Envanter/src/Envanter_16.webp",
+          "thumb": "img/projeler/9_Envanter/thumb/Envanter_16.webp",
+          "width": 2571,
+          "height": 3428,
+          "alt": ""
+        },
+        {
+          "src": "img/projeler/9_Envanter/src/Envanter_17.webp",
+          "thumb": "img/projeler/9_Envanter/thumb/Envanter_17.webp",
+          "width": 2571,
+          "height": 3428,
+          "alt": ""
+        },
+        {
+          "src": "img/projeler/9_Envanter/src/Envanter_18.webp",
+          "thumb": "img/projeler/9_Envanter/thumb/Envanter_18.webp",
+          "width": 2571,
+          "height": 3428,
+          "alt": ""
+        },
+        {
+          "src": "img/projeler/9_Envanter/src/Envanter_19.webp",
+          "thumb": "img/projeler/9_Envanter/thumb/Envanter_19.webp",
+          "width": 2571,
+          "height": 3428,
+          "alt": ""
+        },
+        {
+          "src": "img/projeler/9_Envanter/src/Envanter_20.webp",
+          "thumb": "img/projeler/9_Envanter/thumb/Envanter_20.webp",
+          "width": 2571,
+          "height": 3428,
+          "alt": ""
+        },
+        {
+          "src": "img/projeler/9_Envanter/src/Envanter_21.webp",
+          "thumb": "img/projeler/9_Envanter/thumb/Envanter_21.webp",
+          "width": 2571,
+          "height": 3428,
+          "alt": ""
+        },
+        {
+          "src": "img/projeler/9_Envanter/src/Envanter_22.webp",
+          "thumb": "img/projeler/9_Envanter/thumb/Envanter_22.webp",
+          "width": 2571,
+          "height": 3428,
+          "alt": ""
+        },
+        {
+          "src": "img/projeler/9_Envanter/src/Envanter_23.webp",
+          "thumb": "img/projeler/9_Envanter/thumb/Envanter_23.webp",
+          "width": 2571,
+          "height": 3428,
+          "alt": ""
+        },
+        {
+          "src": "img/projeler/9_Envanter/src/Envanter_24.webp",
+          "thumb": "img/projeler/9_Envanter/thumb/Envanter_24.webp",
+          "width": 2571,
+          "height": 3428,
+          "alt": ""
+        },
+        {
+          "src": "img/projeler/9_Envanter/src/Envanter_25.webp",
+          "thumb": "img/projeler/9_Envanter/thumb/Envanter_25.webp",
+          "width": 2571,
+          "height": 3428,
+          "alt": ""
+        },
+        {
+          "src": "img/projeler/9_Envanter/src/Envanter_26.webp",
+          "thumb": "img/projeler/9_Envanter/thumb/Envanter_26.webp",
+          "width": 2571,
+          "height": 3428,
+          "alt": ""
+        },
+        {
+          "src": "img/projeler/9_Envanter/src/Envanter_27.webp",
+          "thumb": "img/projeler/9_Envanter/thumb/Envanter_27.webp",
+          "width": 2571,
+          "height": 3428,
+          "alt": ""
+        },
+        {
+          "src": "img/projeler/9_Envanter/src/Envanter_28.webp",
+          "thumb": "img/projeler/9_Envanter/thumb/Envanter_28.webp",
+          "width": 2571,
+          "height": 3428,
+          "alt": ""
+        },
+        {
+          "src": "img/projeler/9_Envanter/src/Envanter_29.webp",
+          "thumb": "img/projeler/9_Envanter/thumb/Envanter_29.webp",
+          "width": 2571,
+          "height": 3428,
+          "alt": ""
+        },
+        {
+          "src": "img/projeler/9_Envanter/src/Envanter_30.webp",
+          "thumb": "img/projeler/9_Envanter/thumb/Envanter_30.webp",
+          "width": 2571,
+          "height": 3428,
+          "alt": ""
+        },
+        {
+          "src": "img/projeler/9_Envanter/src/Envanter_31.webp",
+          "thumb": "img/projeler/9_Envanter/thumb/Envanter_31.webp",
+          "width": 2571,
+          "height": 3428,
+          "alt": ""
+        },
+        {
+          "src": "img/projeler/9_Envanter/src/Envanter_32.webp",
+          "thumb": "img/projeler/9_Envanter/thumb/Envanter_32.webp",
+          "width": 2571,
+          "height": 3428,
+          "alt": ""
+        },
+        {
+          "src": "img/projeler/9_Envanter/src/Envanter_33.webp",
+          "thumb": "img/projeler/9_Envanter/thumb/Envanter_33.webp",
+          "width": 2571,
+          "height": 3428,
+          "alt": ""
+        },
+        {
+          "src": "img/projeler/9_Envanter/src/Envanter_34.webp",
+          "thumb": "img/projeler/9_Envanter/thumb/Envanter_34.webp",
+          "width": 2571,
+          "height": 3428,
+          "alt": ""
+        },
+        {
+          "src": "img/projeler/9_Envanter/src/Envanter_35.webp",
+          "thumb": "img/projeler/9_Envanter/thumb/Envanter_35.webp",
+          "width": 2571,
+          "height": 3428,
+          "alt": ""
+        },
+        {
+          "src": "img/projeler/9_Envanter/src/Envanter_36.webp",
+          "thumb": "img/projeler/9_Envanter/thumb/Envanter_36.webp",
+          "width": 2571,
+          "height": 3428,
+          "alt": ""
+        },
+        {
+          "src": "img/projeler/9_Envanter/src/Envanter_37.webp",
+          "thumb": "img/projeler/9_Envanter/thumb/Envanter_37.webp",
+          "width": 2571,
+          "height": 3428,
+          "alt": ""
+        },
+        {
+          "src": "img/projeler/9_Envanter/src/Envanter_38.webp",
+          "thumb": "img/projeler/9_Envanter/thumb/Envanter_38.webp",
+          "width": 2571,
+          "height": 3428,
+          "alt": ""
+        },
+        {
+          "src": "img/projeler/9_Envanter/src/Envanter_39.webp",
+          "thumb": "img/projeler/9_Envanter/thumb/Envanter_39.webp",
+          "width": 2571,
+          "height": 3428,
+          "alt": ""
+        },
+        {
+          "src": "img/projeler/9_Envanter/src/Envanter_40.webp",
+          "thumb": "img/projeler/9_Envanter/thumb/Envanter_40.webp",
+          "width": 2571,
+          "height": 3428,
+          "alt": ""
+        },
+        {
+          "src": "img/projeler/9_Envanter/src/Envanter_41.webp",
+          "thumb": "img/projeler/9_Envanter/thumb/Envanter_41.webp",
+          "width": 2571,
+          "height": 3428,
+          "alt": ""
+        },
+        {
+          "src": "img/projeler/9_Envanter/src/Envanter_42.webp",
+          "thumb": "img/projeler/9_Envanter/thumb/Envanter_42.webp",
+          "width": 2571,
+          "height": 3428,
+          "alt": ""
+        },
+        {
+          "src": "img/projeler/9_Envanter/src/Envanter_43.webp",
+          "thumb": "img/projeler/9_Envanter/thumb/Envanter_43.webp",
+          "width": 2571,
+          "height": 3428,
+          "alt": ""
+        },
+        {
+          "src": "img/projeler/9_Envanter/src/Envanter_44.webp",
+          "thumb": "img/projeler/9_Envanter/thumb/Envanter_44.webp",
+          "width": 2571,
+          "height": 3428,
+          "alt": ""
+        }
+      ],
+      "title": "Envanter"
     }
   ]
 }
